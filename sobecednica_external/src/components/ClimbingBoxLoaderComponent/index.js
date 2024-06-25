@@ -1,0 +1,1 @@
+export ClimbingBoxLoaderComponent from './ClimbingBoxLoaderComponent'

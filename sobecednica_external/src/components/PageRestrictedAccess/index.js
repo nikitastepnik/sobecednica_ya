@@ -1,0 +1,1 @@
+export {PageRestrictedAccess} from './PageRestrictedAccess.jsx'

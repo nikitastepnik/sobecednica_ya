@@ -1,0 +1,112 @@
+.ya-projects-container {
+    display: flex;
+    width: 65%;
+    height: 20%;
+    flex-direction: column;
+    text-align: left;
+}
+
+.projects-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects-row {
+    display: flex;
+    /*height: 30% !important;*/
+    height: 125px;
+    /*max-height: 30%;*/
+    gap: 30px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.project-card-block-background-active {
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+    border-radius: 25px;
+    width: 325px;
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project-card-block-background-active:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-card-block-background-disable {
+    background-color: rgb(250, 250, 250);
+    border-radius: 25px;
+    width: 325px;
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project-header-active {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.project-header-disable {
+    width: 100%;
+    color: rgb(142, 145, 154);
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.project-by-interviewer-status-container-active {
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 15%;
+}
+
+.project-by-interviewer-status-container-disable {
+    display: flex;
+    color: rgb(142, 145, 154);
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 15%;
+}
+
+
+.by-interviewer-status {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+#application_send {
+    background-color: #ccffcc;
+}

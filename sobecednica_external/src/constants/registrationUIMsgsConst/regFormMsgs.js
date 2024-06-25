@@ -1,0 +1,6 @@
+export const AuthTypeRegistration = 'reg'
+export const LOGIN_ALREADY_IN_USE_MSG = 'Данный логин уже используется.'
+export const EMAIL_ALREADY_IN_USE_MSG = 'Данная email-почта уже используется.'
+export const LOGIN_INVALID = 'Логин содержит недопустимые символы!'
+export const EMAIL_INVALID = 'Email-почта содержит недопустимые символы!'
+export const INFO_CONFIRMATION_EMAIL_MSG = 'Пожалуйста, подвердите ваш аккаунт, следуя инструкциям на указанной вами email-почте.'

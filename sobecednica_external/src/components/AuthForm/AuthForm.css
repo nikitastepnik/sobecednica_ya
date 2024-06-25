@@ -1,0 +1,98 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 85%;
+    align-items: flex-start;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 17px;
+    height: 50%;
+}
+
+input[type=password] {
+    width: 100%;
+    font-size: 17px;
+    height: 50%;
+}
+
+
+.field-hint {
+    color: #282c34;
+    font-size: 17px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    gap: 2.5px;
+    height: 50%;
+}
+
+input[type=submit] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+
+.auth-form-background {
+    background-color: rgb(246, 248, 250);
+    border: 1px solid rgb(217, 222, 227);
+    border-radius: 7.5px;
+    width: 20%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-hint-form {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 222, 227);
+    border-radius: 7.5px;
+    font-size: 17px;
+    width: 20%;
+    height: 12.5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.submit-button-auth {
+    width: 100%;
+}
+
+.auth-hint-form-link {
+}
+
+.password {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    cursor: pointer;
+    top: 25px;
+    right: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(/public/hide-view-password-icon.svg) 0 0 no-repeat;
+}
+
+.password-control.view {
+    background: url(/public/view-password-icon.svg) 0 0 no-repeat;
+}

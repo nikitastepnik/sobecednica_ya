@@ -1,0 +1,232 @@
+.header-top-content {
+    display: flex;
+    flex-basis: 35%;
+}
+
+.app-name-header {
+
+}
+
+#start-page {
+}
+
+
+#main-page {
+    justify-content: center;
+}
+
+
+#auth-page {
+}
+
+#go-to-start-page-button {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#go-to-main-page-button {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px
+}
+
+#logout-button {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.icon-account {
+    scale: 1.75;
+}
+
+.user-info {
+    flex-grow: 1;
+    height: 100%;
+    font-size: 19.5px;
+    display: flex;
+    gap: 15px;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.user-login:hover {
+    color: rgb(241, 192, 68);
+}
+
+
+.user-content {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.user-login {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+}
+
+.link-to-profile-page {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-main-left-side-header-container {
+    height: 100%;
+    width: 35%;
+    flex-basis: 35%;
+}
+
+.header-main-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-basis: 65%;
+    align-items: flex-start;
+    padding-bottom: 5px;
+    flex-direction: row;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 100px !important;
+    z-index: 1;
+    cursor: default;
+    background-color: rgb(64, 66, 229);
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-text {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 3px;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 18px;
+    flex-basis: 100%;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-right: 20px;
+    margin-bottom: -30px;
+    flex-direction: column;
+    color: white;
+    cursor: default;
+}
+
+#header-button-main-page {
+    flex-basis: 35%;
+    height: 70%;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#header-buttons-profile-page {
+    flex-basis: 35%;
+    height: 70%;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.header-buttons-link {
+    display: flex;
+    align-items: flex-end;
+    max-width: 150px;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.header-button {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    color: rgb(241, 192, 68);
+}
+
+#sign-up {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.header-title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-title-link:hover {
+    color: rgb(241, 192, 68);
+}
+
+.page-research-left-side-header-container {
+    height: 100%;
+    width: 35%;
+    flex-basis: 35%;
+}
+
+.page-add-research-record-left-side-header-container {
+    height: 100%;
+    width: 35%;
+    flex-basis: 35%;
+}
+
+.page-auth-left-side-header-container {
+    height: 100%;
+    width: 35%;
+    flex-basis: 35%;
+}
+
+
+#left-side-buttons {
+    margin-right: 30px;
+    height: 80%;
+    align-items: flex-end;
+}
+
+#main-logged-page {
+    flex-basis: 35%;
+}
+
+.header-shad {
+    width: 40%;
+    height: 100%;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+.link-to-shad {
+    display: flex;
+    width: 305px;
+    height: 25px;
+}
+
+.header-shad-img {
+    width: 305px;
+    height: 25px;
+}

@@ -1,0 +1,62 @@
+.time-slots-container-outer {
+    height: 80%;
+    display: flex;
+    cursor: default;
+    width: 50%;
+    flex-direction: column;
+}
+
+.time-slots-header {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.time-slots-container-inner {
+    display: flex;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: visible;
+    width: 105%;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.time-slots-day-container {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    color: rgba(235, 80, 39);
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+.time-slot-day-container {
+    width: 80%;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgba(235, 80, 39);
+    color: white;
+    border: 1.75px solid white;
+}
+
+.change-time-slots-hint {
+    margin-left: -30px;
+    width: 100%;
+    margin-top: -25px;
+    height: 10%;
+}
+
+.link-to-change-slots-form {
+    text-decoration: none;
+    color: rgba(235, 80, 39);
+    font-weight: bolder;
+}

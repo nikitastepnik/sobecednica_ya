@@ -1,0 +1,24 @@
+.page-area-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.additional-header-text {
+    font-weight: bolder;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.content-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+}

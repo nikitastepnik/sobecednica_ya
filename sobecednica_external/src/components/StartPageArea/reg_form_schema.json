@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "required": [
+    "login",
+    "name",
+    "education",
+    "yandex_email",
+    "telegram",
+    "interview_subjects"
+  ],
+  "properties": {
+    "login": {
+      "type": "string",
+      "title": "Логин"
+    },
+    "name": {
+      "type": "string",
+      "title": "ФИО"
+    },
+    "education": {
+      "type": "string",
+      "title": "Образование",
+      "description": "Университет, годы, степень (если несколько, то перечислите все)"
+    },
+    "yandex_email": {
+      "type": "string",
+      "title": "Яндекс почта",
+      "pattern": ".*@(yandex.ru|yandex.ua|yandex.kz|yandex.com|yandex.by|ya.ru|yandex-team.ru)$"
+    },
+    "telegram": {
+      "type": "string",
+      "title": "Телеграм",
+      "description": "Ваш логин без @",
+      "pattern": "^(?!@).+$"
+    },
+    "yandex_staff_project": {
+      "type": "string",
+      "title": "Над каким продуктом Яндекса Вы работаете? (staff only)",
+      "default": "–",
+      "description": "Можете указать подразделение со Стаффа, если Вы являетесь сотрудником"
+    },
+    "interview_subjects": {
+      "type": "array",
+      "title": "Что хотите собеседовать?",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Математика",
+          "Программирование",
+          "Мотивация"
+        ]
+      },
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.success-hint-background {
+  width: 85%;
+  height: 27.5%;
+  min-height: 55px;
+  padding: 1.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  border-radius: 7.5px;
+  background-color: rgb(237, 245, 230);
+  border: 1px solid rgb(56, 126, 34);
+}
+
+.success-content {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.success-text {
+  text-align: left;
+}
+
+.close-container {
+  color: rgb(30, 76, 16);
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.close-container:hover {
+  color: rgb(42, 100, 25);
+}

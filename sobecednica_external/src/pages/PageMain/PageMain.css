@@ -1,0 +1,77 @@
+.page-area-container-main-page {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.additional-header-text-page-main {
+    font-weight: bolder;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+}
+
+.content-page-container-main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 85%;
+    max-height: 90%;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: default;
+}
+
+.content-page-on-review-status {
+    padding: 20px;
+    /*gap: 100px;*/
+}
+
+.on-review-loader {
+    padding: 200px;
+}
+
+.on-declined-loader {
+    padding: 100px;
+}
+
+.on-success-ended-loader {
+
+}
+
+
+.ya-calendar-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 65%;
+    text-align: left;
+}
+
+.ya-calendar-link-to-full-view-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.ya-calendar-link-to-full-view {
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.ya-calendar {
+    margin-top: -30px;
+    width: 65%;
+    height: 125%;
+}
+
+.link-to-support-form {
+    text-decoration: none;
+    color: rgba(235, 80, 39);
+    font-weight: bolder;
+}

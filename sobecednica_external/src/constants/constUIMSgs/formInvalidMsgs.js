@@ -1,0 +1,6 @@
+export const INVALID_RUS_PHONE_NUMBER_MSG = "Номер телефона не соответствует формату!"
+export const INVALID_EMAIL_MSG = "Электронная почта не соответствует формату!"
+export const INVALID_HEIGHT_MSG = "Недопустимые диапазоны роста! Валидный диапазон: [50; 250]"
+export const INVALID_AGE_MSG = "Недопустимые диапазоны возраста! Валидный диапазон: [1; 120]"
+export const INVALID_WEIGHT_MSG = "Недопустимые диапазоны веса! Валидный диапазон: [5; 400]"
+export const INVALID_DATE_MSG = "Недопустимый формат даты!"

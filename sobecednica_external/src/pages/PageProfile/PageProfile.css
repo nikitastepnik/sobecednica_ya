@@ -1,0 +1,145 @@
+.page-area-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.additional-header-text-page-profile {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.additional-header-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.call-support-hint {
+    width: 100%;
+    text-align: left;
+    font-style: italic;
+    margin-left: 45%;
+}
+
+.content-page-container-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 45px;
+}
+
+.user-data-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.user-data-container-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.account-icon-profile-page {
+    scale: 3;
+    color: rgb(0, 0, 0);
+}
+
+
+input[type=password] {
+    width: 100%;
+    font-size: 17px;
+    height: 50%;
+}
+
+.field-hint-page-profile {
+    color: #282c34;
+    font-size: 17px;
+}
+
+.input-field-page-profile {
+    background-color: white;
+    font-weight: bold;
+    width: 100%;
+    font-size: 17px;
+    height: 70%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    gap: 2.5px;
+    height: 50%;
+}
+
+
+input[type=submit] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+
+.user-info-form-background {
+    background-color: rgb(246, 248, 250);
+    border: 1px solid rgb(217, 222, 227);
+    border-radius: 7.5px;
+    width: 55%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.user-info-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 30%;
+    height: 80%;
+    align-items: flex-start;
+}
+
+.submit-button-logout {
+    width: 40%;
+}
+
+#clip-loader-component-page-profile {
+    width: 100%;
+    height: 100%;
+}
+
+.link-to-support-form-page-profile {
+    text-decoration: none;
+    color: rgba(235, 80, 39);
+    font-weight: bolder;
+}
+

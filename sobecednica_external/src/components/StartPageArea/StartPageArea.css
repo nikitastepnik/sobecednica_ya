@@ -1,0 +1,40 @@
+.buttons {
+    height: 75%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading-start-title-img {
+    width: 950px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: -100px;
+}
+
+.page-start-main-container {
+    width: 100%;
+    background-image: url("./background.png");
+    margin-bottom: -25px;
+    height: 90%;
+}
+
+
+.submit-button-reg-start-page {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.input:required,
+span {
+    color: red
+}
+
+

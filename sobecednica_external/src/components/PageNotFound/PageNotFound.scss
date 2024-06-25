@@ -1,0 +1,43 @@
+.not-found-component-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-page-not-found-container {
+  width: 100%;
+  height: 15%;
+}
+
+.additional-header-text-page-not-found {
+  font-weight: bolder;
+  font-size: 65px;
+  color: rgb(141, 192, 230);
+}
+
+
+.additional-header-text-smaller-page-not-found {
+  font-weight: bolder;
+  font-size: 32px;
+  color: rgb(141, 192, 230);
+}
+
+.link-to-main-page {
+  width: 100%;
+  height: 75%;
+  min-height: 35px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.submit-button-page-not-found-container {
+  display: flex;
+  z-index: 999;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 15%;
+  width: 15%;
+}
